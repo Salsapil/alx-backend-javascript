@@ -18,6 +18,8 @@ module.exports = {
     },
     plugins: ['jest'],
     rules: {
+      "react/jsx-filename-extension": [0],
+      "import/extensions": "off",
       'no-console': 'off',
       'no-shadow': 'off',
       'no-restricted-syntax': [
